@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Ingresso.com</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		
+
+	</head>
+	<body>
+			
+			<div class="container-fluid">
+					
+					<div class="row">
+					  <div class="col"><h1 class= "nomeTitulo">Ingresso.com</h1></div>
+					  <div class="col"></div>
+					  <div class="col" style="text-align:right;"><button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#myModal"><i class="fas fa-map-marker-alt"></i></button></div>
+					</div>
+				  </div>
+		
+			
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" role="dialog">
+			  <div class="modal-dialog">
+			  
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Esolha sua cidade</h4>
+				  </div>
+				  <div class="modal-body">
+						<select id="cboCidades">
+								<option value="sp">SÃ£o Paulo</option>
+								<option value="rj">Rio de Janeiro</option>
+						</select>
+						<button type="button" id="btnCarregar"  class="btn btn-default" data-dismiss="modal">Trocar Cidade</button>
+						
+				  </div>
+				  
+				</div>
+				
+			  </div>
+			</div>
+						
+
+	<main>
+	  <div class="listaFilme">		
+		<div id="lista"> 
+			<h1>Filmes</h1>
+			<ul id="movie"></ul>
+				
+		</div>
+		</div>
+			  
+			  
+	</main>
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/buscar-filme.js"></script>
+    <script src="js/form.js"></script>
+	
+	
+	
+</body>
+</html>

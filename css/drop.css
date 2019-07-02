@@ -1,0 +1,68 @@
+element.style {
+}
+@media (min-width: 768px)
+#header .hd-option {
+    margin-top: 4px;
+    margin-right: 20px;
+}
+#header .hd-option {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.text-xs-right {
+    text-align: right!important;
+}
+body {
+    font-family: "Proxima Nova","Trebuchet MS",Klavika-Regular,Klavika-Bold,sans-serif,Arial;
+    font-size: .9375rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #333;
+}
+html {
+    font-size: 16px;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: inline-block;
+font-family: "Proxima Nova", "Trebuchet MS", Klavika-Regular, Klavika-Bold, sans-serif, Arial;
+font-size: 15px;
+height: 30px;
+line-height: 22.5px;
+margin-right: 20px;
+margin-top: 4px;
+text-align: left;
+text-size-adjust: 100%;
+vertical-align: top;
+width: 105.4px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+Rendered Fonts
+Proxima Nova RgâNetwork resource(1 glyph)
