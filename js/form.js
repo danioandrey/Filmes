@@ -14,7 +14,7 @@ let button = document.querySelector("#btnCarregar");
 
 button.addEventListener("click", function(event) {
   event.preventDefault();
-
+  removeTag();
   getSelectValue();
 });
 
@@ -28,4 +28,9 @@ function getSelectValue() {
   }
 
   buscaFilme(api);
+}
+
+function removeTag () {
+	
+	document.getElementById('movie').innerHTML = ``; 	
 }
