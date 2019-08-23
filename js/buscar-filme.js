@@ -15,9 +15,16 @@ function buscaFilme (api) {
 		for (i=0; i< title.length; i++){
 						 
 				console.log(title[i]);
+				let trailer;
 				let nome  = title[i].event.title;
 				let url = title[i].event.images[0].url;
-				let trailer = title[i].event.trailers[0].embeddedUrl;
+				console.log(title[i].event.trailers.length);
+				if (title[i].event.trailers.length === 0){
+					 trailer = "";
+				}else {
+					 trailer = title[i].event.trailers[0].embeddedUrl;
+				}
+				
 				const filme = document.getElementById('movie');	
 				renderlista(url,nome,trailer, filme);
 
